@@ -1,0 +1,251 @@
+.portfolio-container{
+    width: 66%;
+    margin: auto;
+
+}
+.project-showcase{
+    width: 66%;
+    margin: auto;
+}
+.project-description{
+    width: 80%;
+    margin: auto;
+    font-family: SofiaSans-5;
+    font-size: 24px;
+}
+.bottom-bar{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+.bottom-bar-img-container{
+    background-color: white;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    padding-top: 5px;
+    text-align: center;
+}
+.about-container{
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 66%;
+    text-align: center;
+    display: inline-flex;
+    font-family: SofiaSans-5;
+    font-size: 24px;
+}
+.about-txt-container{
+    text-align: left;
+    padding-left: 10px;
+    width: 100%
+}
+.about-txt-container-right{
+    text-align: right;
+    padding-right: 10px;
+    width: 100%
+}
+.about-img-container{
+    margin: 10px;
+    width: 70%;
+}
+.home-container{
+    justify-content: space-between;
+    width: 80%;
+    text-align: center;
+    font-family: Calibri;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.home-txt-container{
+    font-family: SofiaSans-8;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 30%;
+}
+.home-img-container{
+}
+.resume-container{
+    width: 66%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-left: 17%; /*bad practice but centering not working, and since its % it will be ok*/
+    font-family: SofiaSans-2;
+}
+p.home-big-txt-left{
+    font-size: 80px;
+    text-align: left;
+}
+p.home-big-txt-right{
+    font-size: 80px;
+    text-align: right;
+}
+#noLink{
+    text-decoration: none;
+    color: black;
+}
+.body-container{
+    padding-top: 10px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-family: SofiaSans-2;
+    background-color: white;
+}
+.title-bar{
+    padding-top: 10px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-family: SofiaSansExtraCondensed-3;
+}
+.top-menu {
+    overflow: hidden;
+    background-color: #fff;
+    font-family: SofiaSansExtraCondensed-7;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.top-menu a {
+    color: black;
+    text-align: center;
+    padding: 10px 36px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.top-menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.top-menu a.active {
+    background-color: #f2f2f2;
+    color: black;
+}
+h1.title-name{
+    font-family: SofiaSansExtraCondensed-4;
+}
+hr{
+    height: 4px;
+    border-width: 0;
+    color: gray;
+    background-color: black;
+    width: 85%;
+}
+@font-face {
+  font-family: Mikoena;
+  src: url(fonts/Mikoena-Demo.ttf);
+}
+@font-face {
+  font-family: ZTRavigsfen-Regular;
+  src: url(fonts/ZTRavigsfen-Regular.otf);
+}
+@font-face {
+  font-family: Glimp-CondensedThin;
+  src: url(fonts/Glimp-CondensedThin.ttf);
+}
+@font-face {
+  font-family: Sovranix-Medium;
+  src: url(fonts/Sovranix-Medium.otf);
+}
+@font-face {
+  font-family: Akrobat-Regular;
+  src: url(fonts/Akrobat-Regular.otf);
+}
+@font-face {
+  font-family: Akrobat-Light;
+  src: url(fonts/Akrobat-Light.otf);
+}
+@font-face {
+  font-family: Akrobat-ExtraLight;
+  src: url(fonts/Akrobat-ExtraLight.otf);
+}
+@font-face {
+  font-family: Akrobat-Thin;
+  src: url(fonts/Akrobat-Thin.otf);
+}
+@font-face {
+  font-family: SofiaSansExtraCondensed-3;
+  src: url(fonts/SofiaSansExtraCondensed-3.ttf);
+}
+@font-face {
+  font-family: SofiaSansExtraCondensed-4;
+  src: url(fonts/SofiaSansExtraCondensed-4.ttf);
+}
+@font-face {
+  font-family: SofiaSansExtraCondensed-5;
+  src: url(fonts/SofiaSansExtraCondensed-5.ttf);
+}
+@font-face {
+  font-family: SofiaSansExtraCondensed-6;
+  src: url(fonts/SofiaSansExtraCondensed-6.ttf);
+}
+@font-face {
+  font-family: SofiaSansExtraCondensed-7;
+  src: url(fonts/SofiaSansExtraCondensed-7.ttf);
+}
+@font-face {
+  font-family: SofiaSansExtraCondensed-8;
+  src: url(fonts/SofiaSansExtraCondensed-8.ttf);
+}
+@font-face {
+  font-family: SofiaSansExtraCondensed-9;
+  src: url(fonts/SofiaSansExtraCondensed-9.ttf);
+}
+@font-face {
+  font-family: SofiaSansExtraCondensed-10;
+  src: url(fonts/SofiaSansExtraCondensed-10.ttf);
+}
+@font-face {
+  font-family: SofiaSans-1;
+  src: url(fonts/SofiaSans-1.ttf);
+}
+@font-face {
+  font-family: SofiaSans-2;
+  src: url(fonts/SofiaSans-3.ttf);
+}
+@font-face {
+  font-family: SofiaSans-3;
+  src: url(fonts/SofiaSans-3.ttf);
+}
+@font-face {
+  font-family: SofiaSans-4;
+  src: url(fonts/SofiaSans-4.ttf);
+}
+@font-face {
+  font-family: SofiaSans-5;
+  src: url(fonts/SofiaSans-5.ttf);
+}
+@font-face {
+  font-family: SofiaSans-6;
+  src: url(fonts/SofiaSans-6.ttf);
+}
+@font-face {
+  font-family: SofiaSans-7;
+  src: url(fonts/SofiaSans-7.ttf);
+}
+@font-face {
+  font-family: SofiaSans-8;
+  src: url(fonts/SofiaSans-8.ttf);
+}
+@font-face {
+  font-family: SofiaSans-9;
+  src: url(fonts/SofiaSans-9.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(fonts/Roboto-Black.ttf);
+}
